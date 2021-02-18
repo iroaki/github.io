@@ -1,0 +1,54 @@
+.main{
+	border: 1px solid;
+	margin: auto;
+	padding: 10px 20px 20px;
+	width: 760px;
+}
+
+h1{
+	color: green;
+	font-size: 30px;
+}
+
+p{
+	font-size: 9px;
+	background-color: gray;
+}
+
+div{
+	font-size: 9px;
+}
+
+span{
+
+}
+p ~ h2 {
+	color: green;
+}
+
+.test{
+	background-color: gray;
+}
+
+#header{
+	font-size: 30px;
+}
+.base{
+	font-size: 20px;
+	font-weight: bold;
+}
+.black{
+	color:black;
+}
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+
+/*属性セレクタ*/
+[href="#"]{
+	background-color: crimson;
+	color: white;
+}
